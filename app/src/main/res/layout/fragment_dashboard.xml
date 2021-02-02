@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DashboardFragment"
+    android:background="#1A1A1D">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logooopng"
+        android:contentDescription="@string/logodesc">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/about_us"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_us"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/aerial_tunisia_is_the_first_tunisian_drone_store_that_aims_to_sell_and_provide_tunisian_costumers_with_the_satisfaction_of_owning_a_drone_and_being_in_line_with_the_latest_and_greatest_techonologies_out_there_we_aim_to_break_the_stigma_over_owning_a_drone_in_tunisia_and_hopefully_allowing_anyone_to_freely_own_and_operate_a_drone_without_restrictions_so_help_us"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="14sp">
+
+    </TextView>
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingStart="7dp"
+        app:icon="@drawable/logout"
+        android:layout_marginTop="550dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        />
+
+
+
+</RelativeLayout>

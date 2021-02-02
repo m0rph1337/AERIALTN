@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DashboardFragment"
+    android:background="#1A1A1D">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/logout_btn_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingStart="7dp"
+            app:icon="@drawable/logout"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/drone1"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="saledrone1" />
+        <TextView
+            android:id="@+id/drone_desc1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="Autel Evo"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color5"
+            android:textSize="17sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/buy_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C3073F"
+            android:text="Buy now"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:paddingTop="70dp"
+            android:src="@drawable/drone2"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="saledrone2" />
+        <TextView
+            android:id="@+id/drone_desc2"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="DJI Mavic Air"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color5"
+            android:textSize="17sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/buy_btn2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C3073F"
+            android:text="Buy now"
+            android:textAllCaps="false" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:paddingTop="70dp"
+            android:src="@drawable/drone3"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="saledrone3" />
+        <TextView
+            android:id="@+id/drone_desc3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="Dji Mini 2"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color5"
+            android:textSize="17sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/buy_btn3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C3073F"
+            android:text="Buy now"
+            android:textAllCaps="false" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:paddingTop="70dp"
+            android:src="@drawable/drone4"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="saledrone4" />
+        <TextView
+            android:id="@+id/drone_desc4"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="DJI Phantom 3"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color5"
+            android:textSize="17sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/buy_btn4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C3073F"
+            android:text="Buy now"
+            android:textAllCaps="false" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:paddingTop="70dp"
+            android:src="@drawable/drone5"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="saledrone5" />
+        <TextView
+            android:id="@+id/drone_desc5"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="DJI Spark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color5"
+            android:textSize="17sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/buy_btn5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C3073F"
+            android:text="Buy now"
+            android:textAllCaps="false" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:paddingTop="70dp"
+            android:src="@drawable/drone6"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="saledrone6" />
+        <TextView
+            android:id="@+id/drone_desc6"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="DJI Tello"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color5"
+            android:textSize="17sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/buy_btn6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C3073F"
+            android:text="Buy now"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

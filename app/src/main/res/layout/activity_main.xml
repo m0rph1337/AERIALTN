@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A1D"
+    android:backgroundTint="@color/color1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logoo"
+        android:contentDescription="@string/logodesc">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/first_drone_selling_webite_in_tunisia"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="7dp"
+        android:backgroundTint="#4E4E50"
+        android:text="@string/already_have_an_account_login"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="7dp"
+        android:backgroundTint="#4E4E50"
+        android:text="@string/register"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

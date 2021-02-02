@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "407729491391",
+    "firebase_url": "https://aerialtn-327df-default-rtdb.europe-west1.firebasedatabase.app/",
+    "project_id": "aerialtn-327df",
+    "storage_bucket": "aerialtn-327df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407729491391:android:08b1874056e83647ed250a",
+        "android_client_info": {
+          "package_name": "com.example.aerialtn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407729491391-bn56kalourbh82va2chunbjktbv5sk37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYM-yjPBkHUApfdG5-TzplOC7tg4lLsi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407729491391-bn56kalourbh82va2chunbjktbv5sk37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

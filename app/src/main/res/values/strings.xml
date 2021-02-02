@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AERIALTN</string>
+    <string name="logodesc">LogoDesc</string>
+    <string name="first_drone_selling_webite_in_tunisia">First Drone selling webite in Tunisia</string>
+    <string name="already_have_an_account_login">Already have an account?Login</string>
+    <string name="register">Register</string>
+    <string name="loginapplogo">loginapplogo</string>
+    <string name="username_id">Username/ID</string>
+    <string name="password2">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="id">ID</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="log_in">Log-in</string>
+    <string name="i_m_an_admin">I\'m an admin?</string>
+    <string name="i_m_not_an_admin">I\'m NOT an admin?</string>
+    <string name="register_password">register_password</string>
+    <string name="Password">password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us">About us:</string>
+    <string name="aerial_tunisia_is_the_first_tunisian_drone_store_that_aims_to_sell_and_provide_tunisian_costumers_with_the_satisfaction_of_owning_a_drone_and_being_in_line_with_the_latest_and_greatest_techonologies_out_there_we_aim_to_break_the_stigma_over_owning_a_drone_in_tunisia_and_hopefully_allowing_anyone_to_freely_own_and_operate_a_drone_without_restrictions_so_help_us">Aerial Tunisia is the first Tunisian drone store that aims to sell and provide tunisian costumers with the satisfaction of owning a drone and being in-line with the latest and greatest techonologies out there, we aim to break the stigma over owning a drone in tunisia and hopefully allowing anyone to freely own and operate a drone without restrictions, so help us ;)</string>
+</resources>
